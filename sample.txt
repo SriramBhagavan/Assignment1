@@ -1,0 +1,290 @@
+function doalert1() {
+  var box1 = document.getElementById("box1");
+  var month1 = document.getElementById("month1");
+  if (box1.checked == true) {
+    month1.style.display = "block";
+  } else {
+    month1.style.display = "none";
+  }
+}
+
+function doalert2() {
+  var box2 = document.getElementById("box2");
+  var month2 = document.getElementById("month2");
+  if (box2.checked == true) {
+    month2.style.display = "block";
+  } else {
+    month2.style.display = "none";
+  }
+}
+
+function doalert3() {
+  var box3 = document.getElementById("box3");
+  var month3 = document.getElementById("month3");
+  if (box3.checked == true) {
+    month3.style.display = "block";
+  } else {
+    month3.style.display = "none";
+  }
+}
+function showHide1(month1)
+ {
+   var selectedValue = month1.options[month1.selectedIndex].value;
+   var txtOther1 = document.getElementById("jan");
+   var txtOther2 = document.getElementById("feb");
+   var txtOther3 = document.getElementById("mar");
+   var txtOther4 = document.getElementById("apr");
+   var txtOther5 = document.getElementById("man1");
+   var txtOther6 = document.getElementById("man2");
+   txtOther1.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther1.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther1.disabled=false;
+   }
+   else{
+   txtOther1.disabled=false;
+   }
+   txtOther2.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther2.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther2.disabled=false;
+   }
+   else{
+   txtOther2.disabled=false;
+   }
+
+   txtOther3.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther3.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther3.disabled=false;
+   }
+   else{
+   txtOther3.disabled=false;
+   }
+   txtOther4.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther4.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther4.disabled=false;
+   }
+   else{
+   txtOther4.disabled=false;
+   }
+   txtOther5.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther5.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther5.disabled=false;
+   }
+   else{
+   txtOther5.disabled=false;
+   }
+   txtOther6.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther6.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther6.disabled=false;
+   }
+   else{
+   txtOther6.disabled=false;
+   }
+   if (!txtOther.disabled) {
+            txtOther.focus();
+    }
+    
+}
+function showHide2(month2)
+ {
+   var selectedValue = month2.options[month2.selectedIndex].value;
+   var txtOther1 = document.getElementById("may");
+   var txtOther2 = document.getElementById("jun");
+   var txtOther3 = document.getElementById("jul");
+   var txtOther4 = document.getElementById("aug");
+   var txtOther5 = document.getElementById("man3");
+   var txtOther6 = document.getElementById("man4");
+   txtOther1.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther1.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther1.disabled=false;
+   }
+   else{
+   txtOther1.disabled=false;
+   }
+   txtOther2.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther2.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther2.disabled=false;
+   }
+   else{
+   txtOther2.disabled=false;
+   }
+
+   txtOther3.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther3.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther3.disabled=false;
+   }
+   else{
+   txtOther3.disabled=false;
+   }
+   txtOther4.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther4.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther4.disabled=false;
+   }
+   else{
+   txtOther4.disabled=false;
+   }
+   txtOther5.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther5.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther5.disabled=false;
+   }
+   else{
+   txtOther5.disabled=false;
+   }
+   txtOther6.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther6.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther6.disabled=false;
+   }
+   else{
+   txtOther6.disabled=false;
+   }
+   if (!txtOther.disabled) {
+            txtOther.focus();
+    }
+}
+function showHide3(month3)
+ {
+   var selectedValue = month3.options[month3.selectedIndex].value;
+   var txtOther1 = document.getElementById("sep");
+   var txtOther2 = document.getElementById("oct");
+   var txtOther3 = document.getElementById("nov");
+   var txtOther4 = document.getElementById("dec");
+   var txtOther5 = document.getElementById("man5");
+   var txtOther6 = document.getElementById("man6");
+   txtOther1.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther1.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther1.disabled=false;
+   }
+   else{
+   txtOther1.disabled=false;
+   }
+   txtOther2.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther2.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther2.disabled=false;
+   }
+   else{
+   txtOther2.disabled=false;
+   }
+
+   txtOther3.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther3.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther3.disabled=false;
+   }
+   else{
+   txtOther3.disabled=false;
+   }
+   txtOther4.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther4.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther4.disabled=false;
+   }
+   else{
+   txtOther4.disabled=false;
+   }
+   txtOther5.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther5.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther5.disabled=false;
+   }
+   else{
+   txtOther5.disabled=false;
+   }
+   txtOther6.style.display = 'block';
+   if(selectedValue=="Jan-Apr")
+   {
+    txtOther6.disabled=false;
+   }
+   else if(selectedValue=="May-Aug")
+   {
+   txtOther6.disabled=false;
+   }
+   else{
+   txtOther6.disabled=false;
+   }
+   if (!txtOther.disabled) {
+            txtOther.focus();
+    }
+}
+
+

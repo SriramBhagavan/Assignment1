@@ -1,0 +1,56 @@
+<html>
+<head>
+<script src="./sample.txt"></script>
+</head>
+  <body>
+  <fieldset>
+  <legend>Choose your option</legend>
+  <div>
+    <input type = "checkbox" name="box1" id="box1" onclick="doalert1(this)">2020<br>
+    <select name="month1" id="month1" style="display:none" onchange="showHide1(this)">
+   <option value="none">Select</option>
+    <option value="Jan-Apr">Jan-Apr</option>
+    <option value="May-Aug">May-Aug</option>
+    <option value="Sep-Dec">Sep-Dec</option>
+  </select>
+  <input type="number" name="jan" id="jan" value="0" disabled="disabled" style="display:none" / >
+  <input type="number" name="feb" id="feb" value="0" disabled="disabled" style="display:none"/>
+  <input type="number" name="mar" id="mar" value="0" disabled="disabled" style="display:none"/>
+  <input type="number" name="apr" id="apr" value="0" disabled="disabled" style="display:none"/>
+  <input type="submit" id="man1" value="Calculate" disabled="disabled" style="display:none"/>
+  <input type="Reset" id="man2" disabled="disabled" style="display:none"/>
+  </div>
+  <div>
+    <input type = "checkbox" name="box2" id="box2" onclick="doalert2(this)">2021<br>
+    <select name="month2" id="month2" style="display:none" onChange="showHide2(this)">
+   <option value="none">Select</option>
+    <option value="Jan-Apr">Jan-Apr</option>
+    <option value="May-Aug">May-Aug</option>
+    <option value="Sep-Dec">Sep-Dec</option>
+  </select>
+  <input type="number" name="may" id="may" value="0" disabled="disabled" style="display:none" / >
+  <input type="number" name="jun" id="jun" value="0" disabled="disabled" style="display:none"/>
+  <input type="number" name="jul" id="jul" value="0" disabled="disabled" style="display:none"/>
+  <input type="number" name="aug" id="aug" value="0" disabled="disabled" style="display:none"/><input type="submit" id="man3" value="Calculate" disabled="disabled" style="display:none"/>
+  <input type="Reset" id="man4" disabled="disabled" style="display:none"/>
+  </div>
+  <div>
+    <input type = "checkbox" name="box3" id="box3" onclick="doalert3(this)">2022<br>
+    <select name="month3" id="month3" style="display:none" onChange="showHide3(this)">
+   <option value="none">Select</option>
+    <option value="Jan-Apr">Jan-Apr</option>
+    <option value="May-Aug">May-Aug</option>
+    <option value="Sep-Dec">Sep-Dec</option>
+  </select>
+  <input type="number" name="sep" id="sep" value="0" disabled="disabled" style="display:none" / >
+  <input type="number" name="oct" id="oct" value="0" disabled="disabled" style="display:none"/>
+  <input type="number" name="nov" id="nov" value="0" disabled="disabled" style="display:none"/>
+  <input type="number" name="dec" id="dec" value="0" disabled="disabled" style="display:none"/>
+  <input type="submit" id="man5" value="Calculate" disabled="disabled" style="display:none"/>
+  <input type="Reset" id="man6" disabled="disabled" style="display:none"/>
+  </div>
+  
+    </fieldset>
+  </body>
+
+</html>
